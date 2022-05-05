@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="index.css"></link>
+</head>
+<body>
+    <span id="header">WAR GAME</span>
+    <div id="game">
+        <div id="container">
+            <div id="player">
+                <span id="name">Player</span>
+                <span id="player_no"></span>
+            </div>
+            <span class="versus">V/s</span>
+            <div id="computer">
+                <span id="name">Computer</span>
+                <span id="com_no"></span>
+            </div>
+        </div>
+        <div id="table">
+            <div id="one"></div>
+            <div id="player_name">Player</div>
+            <div id="computer_name">Computer</div>
+            <div id="score">Score</div>
+            <div id="player_score">0</div>
+            <div id="computer_score">0</div>
+        </div>
+        <div id="button">
+            <button id="button1" onclick="getNo()" disabled>Deal</button>
+            <button id="button2" onclick="start()">Shuffle</button>
+        </div>
+        <span id="winner"></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
