@@ -81,8 +81,11 @@ function getNo() {
         else if ( char1.includes("K")) {
             num1 = 14;
         }
+        else if ( char1.includes("10")) {
+            num1 = 10;
+        }
         else {
-            num1 = char1.charAt(0);
+            num1 = parseInt(char1[0]);
         }
         if ( char2.includes("A")) {
             num2 = 11;
@@ -96,8 +99,11 @@ function getNo() {
         else if ( char2.includes("K")) {
             num2 = 14;
         }
+        else if ( char2.includes("10")) {
+            num2 = 10;
+        }
         else {
-            num2 = char2.charAt(0);
+            num2 = parseInt(char2[0]);
         }
         if (num1 > num2) {
             player_score = +player_score + 1;
