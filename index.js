@@ -81,32 +81,8 @@ function getNo() {
         else if ( char1.includes("K")) {
             num1 = 14;
         }
-        else if ( char1.includes("2")) {
-            num1 = 2;
-        }
-        else if ( char1.includes("3")) {
-            num1 = 3;
-        }
-        else if ( char1.includes("4")) {
-            num1 = 4;
-        }
-        else if ( char1.includes("5")) {
-            num1 = 5;
-        }
-        else if ( char1.includes("6")) {
-            num1 = 6;
-        }
-        else if ( char1.includes("7")) {
-            num1 = 7;
-        }
-        else if ( char1.includes("8")) {
-            num1 = 8;
-        }
-        else if ( char1.includes("9")) {
-            num1 = 9;
-        }
-        else if ( char1.includes("10")) {
-            num1 = 10;
+        else {
+            num1 = char1.charAt(0);
         }
         if ( char2.includes("A")) {
             num2 = 11;
@@ -120,32 +96,8 @@ function getNo() {
         else if ( char2.includes("K")) {
             num2 = 14;
         }
-        else if ( char2.includes("2")) {
-            num2 = 2;
-        }
-        else if ( char2.includes("3")) {
-            num2 = 3;
-        }
-        else if ( char2.includes("4")) {
-            num2 = 4;
-        }
-        else if ( char2.includes("5")) {
-            num2 = 5;
-        }
-        else if ( char2.includes("6")) {
-            num2 = 6;
-        }
-        else if ( char2.includes("7")) {
-            num2 = 7;
-        }
-        else if ( char2.includes("8")) {
-            num2 = 8;
-        }
-        else if ( char2.includes("9")) {
-            num2 = 9;
-        }
-        else if ( char2.includes("10")) {
-            num2 = 10;
+        else {
+            num2 = char2.charAt(0);
         }
         if (num1 > num2) {
             player_score = +player_score + 1;
